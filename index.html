@@ -1,57 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-<body><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <i class="fa-brands fa-facebook"></i>
-  <h1>WIKKIES COOKING FACTORY</h1>
-  <div> 
-     <nav>
-         <a href="https://thecookiefactoryny.com/">
-          <img src="data:image/jpeg;base64,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"
-          alt="To know more click below" target="blank">     
-        </a>
-       </nav>    
-    <h3>click image to visit our platform</h3>
-       <link rel="stylesheet" href="css/style.css">
-       <link rel="stylesheet" href="css/style.css">
-
-  </div>
-  
+<body>
+    <h1>WIKKIES COOKIE COMPANY</h1> 
+    <nav>
+      <ul>
+        <button><li>Home</li></button>
+        <button><li>About</li></button>
+        <button><li>location</li></button>
+      </ul>
+    </nav>
   <div>
-      <div class="unordered">
-    <h4>Ingredients</h4>    
-     <ul>
-       <li>fat/oil</li>  <li>Add-ins</li>
-       <li>sugar</li>    <li>Rising Agent</li>
-       <li>flour</li>
-       <li>eggs</li>
-       <li>butter</li>
-       <li>water</li>
-     </ul>
-  </div>
-    <div class="ordered">
-     <h4>Recipe</h4>
-     <ol>
-      <li>Heat the oven to 190C/170C fan/gas 5. Cream the butter in a large bowl with a wooden spoon <br> or in a stand mixer until it is soft. Add the sugar and keep beating until the mixture is light and fluffy.</li>
-      <li>Roll the dough into walnut-sized balls and place them slightly apart from each other on a baking sheet</li>
-      <li>atten the balls a little with the palm of your hand and bake them in the oven for around 10-12 mins until they are golden brown and slightly firm on top</li>
-      <li>Leave the cookies on a cooling rack for around 15 mins before serving.</li>
-     </ol> 
+    <h3>Founded by Jonnie Wikkie</h3>
+    
+     <div>
+      
+    <img src="https://media.istockphoto.com/id/1668004035/photo/chef-young-man-making-fries-on-a-commercial-kitchen.jpg?s=612x612&w=is&k=20&c=QWfKoAwjH1z_O1mP8Z1stRIQmLGQ5IiO6lwmHYIXL_8=" alt="the chef">
+      <!--he works at Kanpu Olstall ,where the photo was taken-->
+    <p>Born into an environment where love and respect for food and for healthy produce was Jonnie could not help but fall in love with mystries of food and cuisins <br>
+           but where is heart and soul fell in place was in the creation of sweets and deserts </p>
+       <p> His most favourite creation <span style ="color:blue;font-weight:bold">cookies</span> </p>    
+      <div>
+    <section>   
+        <div class="ingridients">
+          <h3>Ingridients</h3>
+          <ul>
+            <li>flour</li>
+            <li>sugar and salt</li>
+            <li>butter</li>
+            <li>eggs</li>
+            <li>Vanilla Extract</li>
+            <li>baking powder/soda</li>
+          </ul>
+        </div>
+        <div class="recipe">
+           <h3>Recipe</h3>
+           <ol>
+            <li>Heat the oven to 190C/170C fan/gas 5. Cream the butter in a large bowl with a wooden spoon <br> or in a stand mixer until it is soft. Add the sugar and keep beating until the mixture is light and fluffy.</li>
+            <li>Roll the dough into walnut-sized balls and place them slightly apart from each other on a baking sheet</li>
+            <li>atten the balls a little with the palm of your hand and bake them in the oven for around 10-12 mins until they are golden brown and slightly firm on top</li>
+            <li>Leave the cookies on a cooling rack for around 15 mins before serving.</li>
+           </ol> 
+        </div>
+    </section>     
+      </div>   
     </div>
-  </div>
- 
+  <footer>
+    <div id="order">
+     <h2>ORDER HERE</h2>
+      <form action="/submit"method="post">
+        <label for="fname"> First name:</label><br>
+        <input type="text" id="fname"name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname"name="lname">
+        <input type="submit"value="submit">
+      </form> 
+      <form action="/submit"method="post">
+        <label for="num">Number of cookies:</label><br>
+        <input type="text" id="num" name="num">
+        <input type="submit"value="submit">   
+      </form>
+      <form action="/submit"method="post">
+        <label for="trans">How do you want it delivered:</label><br>
+        <label for="trans">Bike</label>
+        <input type="checkbox" id="trans"name="trans"><br>
+        <label for="trans">Car</label>
+        <input type="checkbox" id="trans"name="trans">
+      </form>
+     <form action="/submit" method="post">
+      <label for="money">Payment method:</label><br>
+      <label for="money">Card</label>
+      <input type="checkbox" id="money"name="money">
+      <label for="money">Cash</label>
+      <input type="checkbox" id="money"name="money">
 
-
-
-
+     </form>
+    </div>
+  </footer>  
   
-  
-<h1></h1></body>
-</html><i class="fa-brands fa-facebook fa-10x"></i>
-Learn about…
 
+</body>
+</html>

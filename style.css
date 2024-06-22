@@ -1,18 +1,42 @@
-h1{text-align: center; font-style: italic;
-    color: blue;
-}
-h6{
-    color:crimson;
-}
-img{
-    border-radius :30cap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Playwrite+NG+Modern:wght@100..400&display=swap');
 
-#header{
-    color: black;
-    text-align: right;
+h1 {
+  text-align: center;
+  background: orange;
 }
-
-.wrapper{
-    color: greenyellow;
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+img {
+  border-radius: 20px;
+  width: 5cm;
+}
+p {
+  font-family: "Playwrite NG Modern";
+}
+body {
+  background: yellowgreen;
+}
+section {
+  display: flex;justify-content: space-between;
+  padding: 10px;
+}
+.ingridients{
+    font-family: "Aclonica", sans-serif;
+}
+.recipe {
+  
+  font-family: "Aclonica", sans-serif;
+}
+#order{
+    width: 300px;
+    border: radius 10px;
+    padding:50px;
+    border:10px solid black;
+    margin;30px;  
+}
+#order:hover{
+    background: blue;
 }
